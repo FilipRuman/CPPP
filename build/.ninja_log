@@ -1,0 +1,11 @@
+# ninja log v7
+5	1196	1762061505656906782	CMakeFiles/CPPP.dir/src/lexer/tokens.cpp.o	b8f3732c1d1eafa0
+1	1268	1762064782314304585	CMakeFiles/CPPP.dir/src/main.cpp.o	3e794053996ece44
+5	1239	1762061505656348240	CMakeFiles/CPPP.dir/src/lexer/token_parsing_fucntions.cpp.o	e4d1f674ca8f6612
+4	1517	1762061505655348230	CMakeFiles/CPPP.dir/src/lexer/lexer.cpp.o	5880ff0d7f93953
+1339	1446	1761990324821498366	CPPP	a4c4206e79a21fa4
+1	1137	1761984126454314470	CMakeFiles/CPPP.dir/src/error_handling.cpp.o	8d4115a8891db8ce
+1	1082	1761984656574612300	CMakeFiles/CPPP.dir/src/error.cpp.o	b78409ee16c9756f
+5	1129	1762061505657174487	CMakeFiles/CPPP.dir/src/parser/expression.cpp.o	4eab9aa54f92b237
+1	993	1762068176876031657	CMakeFiles/CPPP.dir/src/parser/lookup.cpp.o	c57aa534141a1a2f
+5	60	1762061505657327596	CMakeFiles/CPPP.dir/src/parser/expression_parsing_functions.cpp.o	98ecc48f2e037680

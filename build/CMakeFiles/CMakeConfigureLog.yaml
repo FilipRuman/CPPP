@@ -1,0 +1,1867 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/f/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/f/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/f/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/f/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/"
+    searched_directories:
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/uname"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/uname"
+      - "/run/wrappers/bin/uname"
+      - "/home/f/.local/share/flatpak/exports/bin/uname"
+      - "/var/lib/flatpak/exports/bin/uname"
+      - "/home/f/.nix-profile/bin/uname"
+      - "/nix/profile/bin/uname"
+      - "/home/f/.local/state/nix/profile/bin/uname"
+      - "/etc/profiles/per-user/f/bin/uname"
+      - "/nix/var/nix/profiles/default/bin/uname"
+    found: "/run/current-system/sw/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin"
+        - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin"
+        - "/run/wrappers/bin"
+        - "/home/f/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/f/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/f/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/f/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin"
+        - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin"
+        - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.17.2 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/f/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/f/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/f/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/f/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/"
+    searched_directories:
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/ninja-build"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/ninja"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/samu"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/ninja-build"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/ninja"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/samu"
+      - "/run/wrappers/bin/ninja-build"
+      - "/run/wrappers/bin/ninja"
+      - "/run/wrappers/bin/samu"
+      - "/home/f/.local/share/flatpak/exports/bin/ninja-build"
+      - "/home/f/.local/share/flatpak/exports/bin/ninja"
+      - "/home/f/.local/share/flatpak/exports/bin/samu"
+      - "/var/lib/flatpak/exports/bin/ninja-build"
+      - "/var/lib/flatpak/exports/bin/ninja"
+      - "/var/lib/flatpak/exports/bin/samu"
+      - "/home/f/.nix-profile/bin/ninja-build"
+      - "/home/f/.nix-profile/bin/ninja"
+      - "/home/f/.nix-profile/bin/samu"
+      - "/nix/profile/bin/ninja-build"
+      - "/nix/profile/bin/ninja"
+      - "/nix/profile/bin/samu"
+      - "/home/f/.local/state/nix/profile/bin/ninja-build"
+      - "/home/f/.local/state/nix/profile/bin/ninja"
+      - "/home/f/.local/state/nix/profile/bin/samu"
+      - "/etc/profiles/per-user/f/bin/ninja-build"
+      - "/etc/profiles/per-user/f/bin/ninja"
+      - "/etc/profiles/per-user/f/bin/samu"
+      - "/nix/var/nix/profiles/default/bin/ninja-build"
+      - "/nix/var/nix/profiles/default/bin/ninja"
+      - "/nix/var/nix/profiles/default/bin/samu"
+      - "/run/current-system/sw/bin/ninja-build"
+    found: "/run/current-system/sw/bin/ninja"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin"
+        - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin"
+        - "/run/wrappers/bin"
+        - "/home/f/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/f/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/f/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/f/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin"
+        - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin"
+        - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/f/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/f/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/f/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/f/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/"
+    searched_directories:
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/c++"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/c++"
+      - "/run/wrappers/bin/c++"
+      - "/home/f/.local/share/flatpak/exports/bin/c++"
+      - "/var/lib/flatpak/exports/bin/c++"
+      - "/home/f/.nix-profile/bin/c++"
+      - "/nix/profile/bin/c++"
+      - "/home/f/.local/state/nix/profile/bin/c++"
+      - "/etc/profiles/per-user/f/bin/c++"
+      - "/nix/var/nix/profiles/default/bin/c++"
+    found: "/run/current-system/sw/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin"
+        - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin"
+        - "/run/wrappers/bin"
+        - "/home/f/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/f/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/f/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/f/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin"
+        - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin"
+        - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/"
+    found: "/run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin"
+        - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin"
+        - "/run/wrappers/bin"
+        - "/home/f/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/f/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/f/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/f/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin"
+        - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin"
+        - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /run/current-system/sw/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/f/git/CPPP/build/CMakeFiles/4.1.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar"
+      - "ar"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/f/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/f/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/f/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/f/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/"
+    searched_directories:
+      - "/run/current-system/sw/bin/llvm-ar"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/llvm-ar"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/llvm-ar"
+      - "/run/wrappers/bin/llvm-ar"
+      - "/home/f/.local/share/flatpak/exports/bin/llvm-ar"
+      - "/var/lib/flatpak/exports/bin/llvm-ar"
+      - "/home/f/.nix-profile/bin/llvm-ar"
+      - "/nix/profile/bin/llvm-ar"
+      - "/home/f/.local/state/nix/profile/bin/llvm-ar"
+      - "/etc/profiles/per-user/f/bin/llvm-ar"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/llvm-ar"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/llvm-ar"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/llvm-ar"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/llvm-ar"
+    found: "/run/current-system/sw/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin"
+        - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin"
+        - "/run/wrappers/bin"
+        - "/home/f/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/f/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/f/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/f/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin"
+        - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin"
+        - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/f/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/f/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/f/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/f/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/"
+    searched_directories:
+      - "/run/current-system/sw/bin/llvm-ranlib"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/llvm-ranlib"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/llvm-ranlib"
+      - "/run/wrappers/bin/llvm-ranlib"
+      - "/home/f/.local/share/flatpak/exports/bin/llvm-ranlib"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib"
+      - "/home/f/.nix-profile/bin/llvm-ranlib"
+      - "/nix/profile/bin/llvm-ranlib"
+      - "/home/f/.local/state/nix/profile/bin/llvm-ranlib"
+      - "/etc/profiles/per-user/f/bin/llvm-ranlib"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/llvm-ranlib"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/llvm-ranlib"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/llvm-ranlib"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/llvm-ranlib"
+    found: "/run/current-system/sw/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin"
+        - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin"
+        - "/run/wrappers/bin"
+        - "/home/f/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/f/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/f/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/f/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin"
+        - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin"
+        - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-strip"
+      - "strip"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/f/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/f/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/f/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/f/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/"
+    searched_directories:
+      - "/run/current-system/sw/bin/llvm-strip"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/llvm-strip"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/llvm-strip"
+      - "/run/wrappers/bin/llvm-strip"
+      - "/home/f/.local/share/flatpak/exports/bin/llvm-strip"
+      - "/var/lib/flatpak/exports/bin/llvm-strip"
+      - "/home/f/.nix-profile/bin/llvm-strip"
+      - "/nix/profile/bin/llvm-strip"
+      - "/home/f/.local/state/nix/profile/bin/llvm-strip"
+      - "/etc/profiles/per-user/f/bin/llvm-strip"
+      - "/nix/var/nix/profiles/default/bin/llvm-strip"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/llvm-strip"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/llvm-strip"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/llvm-strip"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/llvm-strip"
+    found: "/run/current-system/sw/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin"
+        - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin"
+        - "/run/wrappers/bin"
+        - "/home/f/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/f/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/f/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/f/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin"
+        - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin"
+        - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/f/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/f/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/f/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/f/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/"
+    searched_directories:
+      - "/run/current-system/sw/bin/ld.lld"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/ld.lld"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/ld.lld"
+      - "/run/wrappers/bin/ld.lld"
+      - "/home/f/.local/share/flatpak/exports/bin/ld.lld"
+      - "/var/lib/flatpak/exports/bin/ld.lld"
+      - "/home/f/.nix-profile/bin/ld.lld"
+      - "/nix/profile/bin/ld.lld"
+      - "/home/f/.local/state/nix/profile/bin/ld.lld"
+      - "/etc/profiles/per-user/f/bin/ld.lld"
+      - "/nix/var/nix/profiles/default/bin/ld.lld"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/ld.lld"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/ld.lld"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/ld.lld"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/ld.lld"
+    found: "/run/current-system/sw/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin"
+        - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin"
+        - "/run/wrappers/bin"
+        - "/home/f/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/f/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/f/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/f/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin"
+        - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin"
+        - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-nm"
+      - "nm"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/f/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/f/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/f/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/f/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/"
+    searched_directories:
+      - "/run/current-system/sw/bin/llvm-nm"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/llvm-nm"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/llvm-nm"
+      - "/run/wrappers/bin/llvm-nm"
+      - "/home/f/.local/share/flatpak/exports/bin/llvm-nm"
+      - "/var/lib/flatpak/exports/bin/llvm-nm"
+      - "/home/f/.nix-profile/bin/llvm-nm"
+      - "/nix/profile/bin/llvm-nm"
+      - "/home/f/.local/state/nix/profile/bin/llvm-nm"
+      - "/etc/profiles/per-user/f/bin/llvm-nm"
+      - "/nix/var/nix/profiles/default/bin/llvm-nm"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/llvm-nm"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/llvm-nm"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/llvm-nm"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/llvm-nm"
+    found: "/run/current-system/sw/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin"
+        - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin"
+        - "/run/wrappers/bin"
+        - "/home/f/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/f/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/f/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/f/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin"
+        - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin"
+        - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/f/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/f/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/f/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/f/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/"
+    searched_directories:
+      - "/run/current-system/sw/bin/llvm-objdump"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/llvm-objdump"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/llvm-objdump"
+      - "/run/wrappers/bin/llvm-objdump"
+      - "/home/f/.local/share/flatpak/exports/bin/llvm-objdump"
+      - "/var/lib/flatpak/exports/bin/llvm-objdump"
+      - "/home/f/.nix-profile/bin/llvm-objdump"
+      - "/nix/profile/bin/llvm-objdump"
+      - "/home/f/.local/state/nix/profile/bin/llvm-objdump"
+      - "/etc/profiles/per-user/f/bin/llvm-objdump"
+      - "/nix/var/nix/profiles/default/bin/llvm-objdump"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/llvm-objdump"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/llvm-objdump"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/llvm-objdump"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/llvm-objdump"
+    found: "/run/current-system/sw/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin"
+        - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin"
+        - "/run/wrappers/bin"
+        - "/home/f/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/f/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/f/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/f/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin"
+        - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin"
+        - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/f/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/f/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/f/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/f/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/"
+    searched_directories:
+      - "/run/current-system/sw/bin/llvm-objcopy"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/llvm-objcopy"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/llvm-objcopy"
+      - "/run/wrappers/bin/llvm-objcopy"
+      - "/home/f/.local/share/flatpak/exports/bin/llvm-objcopy"
+      - "/var/lib/flatpak/exports/bin/llvm-objcopy"
+      - "/home/f/.nix-profile/bin/llvm-objcopy"
+      - "/nix/profile/bin/llvm-objcopy"
+      - "/home/f/.local/state/nix/profile/bin/llvm-objcopy"
+      - "/etc/profiles/per-user/f/bin/llvm-objcopy"
+      - "/nix/var/nix/profiles/default/bin/llvm-objcopy"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/llvm-objcopy"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/llvm-objcopy"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/llvm-objcopy"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/llvm-objcopy"
+    found: "/run/current-system/sw/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin"
+        - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin"
+        - "/run/wrappers/bin"
+        - "/home/f/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/f/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/f/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/f/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin"
+        - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin"
+        - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/f/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/f/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/f/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/f/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/"
+    searched_directories:
+      - "/run/current-system/sw/bin/llvm-readelf"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/llvm-readelf"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/llvm-readelf"
+      - "/run/wrappers/bin/llvm-readelf"
+      - "/home/f/.local/share/flatpak/exports/bin/llvm-readelf"
+      - "/var/lib/flatpak/exports/bin/llvm-readelf"
+      - "/home/f/.nix-profile/bin/llvm-readelf"
+      - "/nix/profile/bin/llvm-readelf"
+      - "/home/f/.local/state/nix/profile/bin/llvm-readelf"
+      - "/etc/profiles/per-user/f/bin/llvm-readelf"
+      - "/nix/var/nix/profiles/default/bin/llvm-readelf"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/llvm-readelf"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/llvm-readelf"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/llvm-readelf"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/llvm-readelf"
+    found: "/run/current-system/sw/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin"
+        - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin"
+        - "/run/wrappers/bin"
+        - "/home/f/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/f/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/f/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/f/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin"
+        - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin"
+        - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/f/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/f/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/f/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/f/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/"
+    searched_directories:
+      - "/run/current-system/sw/bin/llvm-dlltool"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/llvm-dlltool"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/llvm-dlltool"
+      - "/run/wrappers/bin/llvm-dlltool"
+      - "/home/f/.local/share/flatpak/exports/bin/llvm-dlltool"
+      - "/var/lib/flatpak/exports/bin/llvm-dlltool"
+      - "/home/f/.nix-profile/bin/llvm-dlltool"
+      - "/nix/profile/bin/llvm-dlltool"
+      - "/home/f/.local/state/nix/profile/bin/llvm-dlltool"
+      - "/etc/profiles/per-user/f/bin/llvm-dlltool"
+      - "/nix/var/nix/profiles/default/bin/llvm-dlltool"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/llvm-dlltool"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/llvm-dlltool"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/llvm-dlltool"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/llvm-dlltool"
+      - "/run/current-system/sw/bin/dlltool"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/dlltool"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/dlltool"
+      - "/run/wrappers/bin/dlltool"
+      - "/home/f/.local/share/flatpak/exports/bin/dlltool"
+      - "/var/lib/flatpak/exports/bin/dlltool"
+      - "/home/f/.nix-profile/bin/dlltool"
+      - "/nix/profile/bin/dlltool"
+      - "/home/f/.local/state/nix/profile/bin/dlltool"
+      - "/etc/profiles/per-user/f/bin/dlltool"
+      - "/nix/var/nix/profiles/default/bin/dlltool"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/dlltool"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/dlltool"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/dlltool"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin"
+        - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin"
+        - "/run/wrappers/bin"
+        - "/home/f/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/f/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/f/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/f/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin"
+        - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin"
+        - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/f/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/f/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/f/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/f/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/"
+    searched_directories:
+      - "/run/current-system/sw/bin/llvm-addr2line"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/llvm-addr2line"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/llvm-addr2line"
+      - "/run/wrappers/bin/llvm-addr2line"
+      - "/home/f/.local/share/flatpak/exports/bin/llvm-addr2line"
+      - "/var/lib/flatpak/exports/bin/llvm-addr2line"
+      - "/home/f/.nix-profile/bin/llvm-addr2line"
+      - "/nix/profile/bin/llvm-addr2line"
+      - "/home/f/.local/state/nix/profile/bin/llvm-addr2line"
+      - "/etc/profiles/per-user/f/bin/llvm-addr2line"
+      - "/nix/var/nix/profiles/default/bin/llvm-addr2line"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/llvm-addr2line"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/llvm-addr2line"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/llvm-addr2line"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/llvm-addr2line"
+    found: "/run/current-system/sw/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin"
+        - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin"
+        - "/run/wrappers/bin"
+        - "/home/f/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/f/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/f/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/f/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin"
+        - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin"
+        - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/f/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/f/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/f/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/f/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/"
+    searched_directories:
+      - "/run/current-system/sw/bin/tapi"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/tapi"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/tapi"
+      - "/run/wrappers/bin/tapi"
+      - "/home/f/.local/share/flatpak/exports/bin/tapi"
+      - "/var/lib/flatpak/exports/bin/tapi"
+      - "/home/f/.nix-profile/bin/tapi"
+      - "/nix/profile/bin/tapi"
+      - "/home/f/.local/state/nix/profile/bin/tapi"
+      - "/etc/profiles/per-user/f/bin/tapi"
+      - "/nix/var/nix/profiles/default/bin/tapi"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/tapi"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/tapi"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/tapi"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin"
+        - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin"
+        - "/run/wrappers/bin"
+        - "/home/f/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/f/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/f/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/f/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin"
+        - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin"
+        - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-21.1"
+      - "llvm-ar-21"
+      - "llvm-ar21"
+      - "llvm-ar"
+    candidate_directories:
+      - "/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/f/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/f/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/f/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/f/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/"
+    searched_directories:
+      - "/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/bin/llvm-ar-21.1"
+      - "/run/current-system/sw/bin/llvm-ar-21.1"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/llvm-ar-21.1"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/llvm-ar-21.1"
+      - "/run/wrappers/bin/llvm-ar-21.1"
+      - "/home/f/.local/share/flatpak/exports/bin/llvm-ar-21.1"
+      - "/var/lib/flatpak/exports/bin/llvm-ar-21.1"
+      - "/home/f/.nix-profile/bin/llvm-ar-21.1"
+      - "/nix/profile/bin/llvm-ar-21.1"
+      - "/home/f/.local/state/nix/profile/bin/llvm-ar-21.1"
+      - "/etc/profiles/per-user/f/bin/llvm-ar-21.1"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar-21.1"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/llvm-ar-21.1"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/llvm-ar-21.1"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/llvm-ar-21.1"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/llvm-ar-21.1"
+      - "/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/bin/llvm-ar-21"
+      - "/run/current-system/sw/bin/llvm-ar-21"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/llvm-ar-21"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/llvm-ar-21"
+      - "/run/wrappers/bin/llvm-ar-21"
+      - "/home/f/.local/share/flatpak/exports/bin/llvm-ar-21"
+      - "/var/lib/flatpak/exports/bin/llvm-ar-21"
+      - "/home/f/.nix-profile/bin/llvm-ar-21"
+      - "/nix/profile/bin/llvm-ar-21"
+      - "/home/f/.local/state/nix/profile/bin/llvm-ar-21"
+      - "/etc/profiles/per-user/f/bin/llvm-ar-21"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar-21"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/llvm-ar-21"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/llvm-ar-21"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/llvm-ar-21"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/llvm-ar-21"
+      - "/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/bin/llvm-ar21"
+      - "/run/current-system/sw/bin/llvm-ar21"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/llvm-ar21"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/llvm-ar21"
+      - "/run/wrappers/bin/llvm-ar21"
+      - "/home/f/.local/share/flatpak/exports/bin/llvm-ar21"
+      - "/var/lib/flatpak/exports/bin/llvm-ar21"
+      - "/home/f/.nix-profile/bin/llvm-ar21"
+      - "/nix/profile/bin/llvm-ar21"
+      - "/home/f/.local/state/nix/profile/bin/llvm-ar21"
+      - "/etc/profiles/per-user/f/bin/llvm-ar21"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar21"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/llvm-ar21"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/llvm-ar21"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/llvm-ar21"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/llvm-ar21"
+      - "/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/bin/llvm-ar"
+      - "/run/current-system/sw/bin/llvm-ar"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/llvm-ar"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/llvm-ar"
+      - "/run/wrappers/bin/llvm-ar"
+      - "/home/f/.local/share/flatpak/exports/bin/llvm-ar"
+      - "/var/lib/flatpak/exports/bin/llvm-ar"
+      - "/home/f/.nix-profile/bin/llvm-ar"
+      - "/nix/profile/bin/llvm-ar"
+      - "/home/f/.local/state/nix/profile/bin/llvm-ar"
+      - "/etc/profiles/per-user/f/bin/llvm-ar"
+      - "/nix/var/nix/profiles/default/bin/llvm-ar"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/llvm-ar"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/llvm-ar"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/llvm-ar"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/llvm-ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin"
+        - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin"
+        - "/run/wrappers/bin"
+        - "/home/f/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/f/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/f/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/f/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin"
+        - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin"
+        - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-21.1"
+      - "llvm-ranlib-21"
+      - "llvm-ranlib21"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/f/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/f/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/f/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/f/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/"
+    searched_directories:
+      - "/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/bin/llvm-ranlib-21.1"
+      - "/run/current-system/sw/bin/llvm-ranlib-21.1"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/llvm-ranlib-21.1"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/llvm-ranlib-21.1"
+      - "/run/wrappers/bin/llvm-ranlib-21.1"
+      - "/home/f/.local/share/flatpak/exports/bin/llvm-ranlib-21.1"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib-21.1"
+      - "/home/f/.nix-profile/bin/llvm-ranlib-21.1"
+      - "/nix/profile/bin/llvm-ranlib-21.1"
+      - "/home/f/.local/state/nix/profile/bin/llvm-ranlib-21.1"
+      - "/etc/profiles/per-user/f/bin/llvm-ranlib-21.1"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib-21.1"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/llvm-ranlib-21.1"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/llvm-ranlib-21.1"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/llvm-ranlib-21.1"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/llvm-ranlib-21.1"
+      - "/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/bin/llvm-ranlib-21"
+      - "/run/current-system/sw/bin/llvm-ranlib-21"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/llvm-ranlib-21"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/llvm-ranlib-21"
+      - "/run/wrappers/bin/llvm-ranlib-21"
+      - "/home/f/.local/share/flatpak/exports/bin/llvm-ranlib-21"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib-21"
+      - "/home/f/.nix-profile/bin/llvm-ranlib-21"
+      - "/nix/profile/bin/llvm-ranlib-21"
+      - "/home/f/.local/state/nix/profile/bin/llvm-ranlib-21"
+      - "/etc/profiles/per-user/f/bin/llvm-ranlib-21"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib-21"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/llvm-ranlib-21"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/llvm-ranlib-21"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/llvm-ranlib-21"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/llvm-ranlib-21"
+      - "/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/bin/llvm-ranlib21"
+      - "/run/current-system/sw/bin/llvm-ranlib21"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/llvm-ranlib21"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/llvm-ranlib21"
+      - "/run/wrappers/bin/llvm-ranlib21"
+      - "/home/f/.local/share/flatpak/exports/bin/llvm-ranlib21"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib21"
+      - "/home/f/.nix-profile/bin/llvm-ranlib21"
+      - "/nix/profile/bin/llvm-ranlib21"
+      - "/home/f/.local/state/nix/profile/bin/llvm-ranlib21"
+      - "/etc/profiles/per-user/f/bin/llvm-ranlib21"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib21"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/llvm-ranlib21"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/llvm-ranlib21"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/llvm-ranlib21"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/llvm-ranlib21"
+      - "/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/bin/llvm-ranlib"
+      - "/run/current-system/sw/bin/llvm-ranlib"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/llvm-ranlib"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/llvm-ranlib"
+      - "/run/wrappers/bin/llvm-ranlib"
+      - "/home/f/.local/share/flatpak/exports/bin/llvm-ranlib"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib"
+      - "/home/f/.nix-profile/bin/llvm-ranlib"
+      - "/nix/profile/bin/llvm-ranlib"
+      - "/home/f/.local/state/nix/profile/bin/llvm-ranlib"
+      - "/etc/profiles/per-user/f/bin/llvm-ranlib"
+      - "/nix/var/nix/profiles/default/bin/llvm-ranlib"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/llvm-ranlib"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/llvm-ranlib"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/llvm-ranlib"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/llvm-ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin"
+        - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin"
+        - "/run/wrappers/bin"
+        - "/home/f/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/f/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/f/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/f/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin"
+        - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin"
+        - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-21.1"
+      - "clang-scan-deps-21"
+      - "clang-scan-deps21"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/f/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/f/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/f/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/f/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/"
+    searched_directories:
+      - "/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/bin/clang-scan-deps-21.1"
+      - "/run/current-system/sw/bin/clang-scan-deps-21.1"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/clang-scan-deps-21.1"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/clang-scan-deps-21.1"
+      - "/run/wrappers/bin/clang-scan-deps-21.1"
+      - "/home/f/.local/share/flatpak/exports/bin/clang-scan-deps-21.1"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps-21.1"
+      - "/home/f/.nix-profile/bin/clang-scan-deps-21.1"
+      - "/nix/profile/bin/clang-scan-deps-21.1"
+      - "/home/f/.local/state/nix/profile/bin/clang-scan-deps-21.1"
+      - "/etc/profiles/per-user/f/bin/clang-scan-deps-21.1"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps-21.1"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/clang-scan-deps-21.1"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/clang-scan-deps-21.1"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/clang-scan-deps-21.1"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/clang-scan-deps-21.1"
+      - "/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/bin/clang-scan-deps-21"
+      - "/run/current-system/sw/bin/clang-scan-deps-21"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/clang-scan-deps-21"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/clang-scan-deps-21"
+      - "/run/wrappers/bin/clang-scan-deps-21"
+      - "/home/f/.local/share/flatpak/exports/bin/clang-scan-deps-21"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps-21"
+      - "/home/f/.nix-profile/bin/clang-scan-deps-21"
+      - "/nix/profile/bin/clang-scan-deps-21"
+      - "/home/f/.local/state/nix/profile/bin/clang-scan-deps-21"
+      - "/etc/profiles/per-user/f/bin/clang-scan-deps-21"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps-21"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/clang-scan-deps-21"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/clang-scan-deps-21"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/clang-scan-deps-21"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/clang-scan-deps-21"
+      - "/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/bin/clang-scan-deps21"
+      - "/run/current-system/sw/bin/clang-scan-deps21"
+      - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin/clang-scan-deps21"
+      - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin/clang-scan-deps21"
+      - "/run/wrappers/bin/clang-scan-deps21"
+      - "/home/f/.local/share/flatpak/exports/bin/clang-scan-deps21"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps21"
+      - "/home/f/.nix-profile/bin/clang-scan-deps21"
+      - "/nix/profile/bin/clang-scan-deps21"
+      - "/home/f/.local/state/nix/profile/bin/clang-scan-deps21"
+      - "/etc/profiles/per-user/f/bin/clang-scan-deps21"
+      - "/nix/var/nix/profiles/default/bin/clang-scan-deps21"
+      - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin/clang-scan-deps21"
+      - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin/clang-scan-deps21"
+      - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin/clang-scan-deps21"
+      - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin/clang-scan-deps21"
+      - "/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/bin/clang-scan-deps"
+    found: "/run/current-system/sw/bin/clang-scan-deps"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vzd2hn2ividg120jlfkg0pljwa5cbrl-ghostty-1.2.1/bin"
+        - "/nix/store/i24mfkgsg2zjqh0jasw2pw3jxjqldp3p-ghostty-1.2.2/bin"
+        - "/run/wrappers/bin"
+        - "/home/f/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/f/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/f/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/f/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/0fq1mnfqjl9ain4jg5j56kl6h8bbmy1h-binutils-wrapper-2.44/bin"
+        - "/nix/store/i9qgc0bs388sh8jkpkf85pvjqjz7b98z-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/yisdgd4qh67xsl6xx0zj7v8d7m34bdrb-pciutils-3.14.0/bin"
+        - "/nix/store/yl7wip489lq6phpvpcydjc2qzb303rp3-pkgconf-wrapper-2.4.3/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/f/git/CPPP/build/CMakeFiles/CMakeScratch/TryCompile-ioHW2q"
+      binary: "/home/f/git/CPPP/build/CMakeFiles/CMakeScratch/TryCompile-ioHW2q"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/run/current-system/sw/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/f/git/CPPP/build/CMakeFiles/CMakeScratch/TryCompile-ioHW2q'
+        
+        Run Build Command(s): /run/current-system/sw/bin/ninja -v cmTC_e8a79
+        [1/2] /run/current-system/sw/bin/c++   -v -MD -MT CMakeFiles/cmTC_e8a79.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e8a79.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e8a79.dir/CMakeCXXCompilerABI.cpp.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
+        clang version 21.1.1
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/49aj2pqs10jkr5lf3ds87iynqp1v98k8-clang-21.1.1/bin
+        Found candidate GCC installation: /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0
+        Selected GCC installation: /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/49aj2pqs10jkr5lf3ds87iynqp1v98k8-clang-21.1.1/bin/clang++" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/f/git/CPPP/build/CMakeFiles/CMakeScratch/TryCompile-ioHW2q -v -fcoverage-compilation-dir=/home/f/git/CPPP/build/CMakeFiles/CMakeScratch/TryCompile-ioHW2q -nostdsysteminc -resource-dir /nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/resource-root -dependency-file CMakeFiles/cmTC_e8a79.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_e8a79.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -idirafter /nix/store/0zv32kh0zb4s1v4ld6mc99vmzydj9nm9-glibc-2.40-66-dev/include -isystem /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0 -isystem /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/resource-root/include -fmacro-prefix-map=/nix/store/0zv32kh0zb4s1v4ld6mc99vmzydj9nm9-glibc-2.40-66-dev/include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.40-66-dev/include -fmacro-prefix-map=/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-14.3.0/include/c++/14.3.0 -fmacro-prefix-map=/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e8a79.dir/CMakeCXXCompilerABI.cpp.o -x c++ /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 21.1.1 based upon LLVM 21.1.1 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0
+         /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu
+         /nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/resource-root/include
+         /nix/store/0zv32kh0zb4s1v4ld6mc99vmzydj9nm9-glibc-2.40-66-dev/include
+        End of search list.
+        [2/2] : && /run/current-system/sw/bin/c++  -v -Wl,-v CMakeFiles/cmTC_e8a79.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e8a79   && :
+        clang version 21.1.1
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/49aj2pqs10jkr5lf3ds87iynqp1v98k8-clang-21.1.1/bin
+        Found candidate GCC installation: /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0
+        Selected GCC installation: /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/nix/store/pdhsik44bckhbspwhqk65wapgib6gnrn-binutils-wrapper-2.44/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_e8a79 /nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/Scrt1.o /nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/crti.o /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/crtbeginS.o -L/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib -L/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0 -L/nix/store/xp989kyfg52803fmkzbz5py35jphcpgd-gcc-14.3.0-lib/lib -L/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0//lib -L/nix/store/8b9srwwmrwmh1yl613cwwj7gydl87br6-gcc-14.3.0-libgcc/lib -L/nix/store/d9vzxkjy9ywv31632m1md3ahw4fqjnjh-clang-21.1.1-lib/lib -L/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0 -dynamic-linker=/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_e8a79.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/crtendS.o /nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/crtn.o
+        GNU ld (GNU Binutils) 2.44
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0]
+          add: [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu]
+          add: [/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/resource-root/include]
+          add: [/nix/store/0zv32kh0zb4s1v4ld6mc99vmzydj9nm9-glibc-2.40-66-dev/include]
+        end of search list found
+        collapse include dir [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0] ==> [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0]
+        collapse include dir [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu] ==> [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu]
+        collapse include dir [/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/resource-root/include] ==> [/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/resource-root/include]
+        collapse include dir [/nix/store/0zv32kh0zb4s1v4ld6mc99vmzydj9nm9-glibc-2.40-66-dev/include] ==> [/nix/store/0zv32kh0zb4s1v4ld6mc99vmzydj9nm9-glibc-2.40-66-dev/include]
+        implicit include dirs: [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0;/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu;/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/resource-root/include;/nix/store/0zv32kh0zb4s1v4ld6mc99vmzydj9nm9-glibc-2.40-66-dev/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/f/git/CPPP/build/CMakeFiles/CMakeScratch/TryCompile-ioHW2q']
+        ignore line: []
+        ignore line: [Run Build Command(s): /run/current-system/sw/bin/ninja -v cmTC_e8a79]
+        ignore line: [[1/2] /run/current-system/sw/bin/c++   -v -MD -MT CMakeFiles/cmTC_e8a79.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e8a79.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e8a79.dir/CMakeCXXCompilerABI.cpp.o -c /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 21.1.1]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/49aj2pqs10jkr5lf3ds87iynqp1v98k8-clang-21.1.1/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0]
+        ignore line: [Selected GCC installation: /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/nix/store/49aj2pqs10jkr5lf3ds87iynqp1v98k8-clang-21.1.1/bin/clang++" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/f/git/CPPP/build/CMakeFiles/CMakeScratch/TryCompile-ioHW2q -v -fcoverage-compilation-dir=/home/f/git/CPPP/build/CMakeFiles/CMakeScratch/TryCompile-ioHW2q -nostdsysteminc -resource-dir /nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/resource-root -dependency-file CMakeFiles/cmTC_e8a79.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_e8a79.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -idirafter /nix/store/0zv32kh0zb4s1v4ld6mc99vmzydj9nm9-glibc-2.40-66-dev/include -isystem /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0 -isystem /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/resource-root/include -fmacro-prefix-map=/nix/store/0zv32kh0zb4s1v4ld6mc99vmzydj9nm9-glibc-2.40-66-dev/include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.40-66-dev/include -fmacro-prefix-map=/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-14.3.0/include/c++/14.3.0 -fmacro-prefix-map=/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e8a79.dir/CMakeCXXCompilerABI.cpp.o -x c++ /run/current-system/sw/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 21.1.1 based upon LLVM 21.1.1 default target x86_64-unknown-linux-gnu]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0]
+        ignore line: [ /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu]
+        ignore line: [ /nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/resource-root/include]
+        ignore line: [ /nix/store/0zv32kh0zb4s1v4ld6mc99vmzydj9nm9-glibc-2.40-66-dev/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /run/current-system/sw/bin/c++  -v -Wl -v CMakeFiles/cmTC_e8a79.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e8a79   && :]
+        ignore line: [clang version 21.1.1]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/49aj2pqs10jkr5lf3ds87iynqp1v98k8-clang-21.1.1/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0]
+        ignore line: [Selected GCC installation: /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/nix/store/pdhsik44bckhbspwhqk65wapgib6gnrn-binutils-wrapper-2.44/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_e8a79 /nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/Scrt1.o /nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/crti.o /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/crtbeginS.o -L/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib -L/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0 -L/nix/store/xp989kyfg52803fmkzbz5py35jphcpgd-gcc-14.3.0-lib/lib -L/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0//lib -L/nix/store/8b9srwwmrwmh1yl613cwwj7gydl87br6-gcc-14.3.0-libgcc/lib -L/nix/store/d9vzxkjy9ywv31632m1md3ahw4fqjnjh-clang-21.1.1-lib/lib -L/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0 -dynamic-linker=/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_e8a79.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/crtendS.o /nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/crtn.o]
+          arg [/nix/store/pdhsik44bckhbspwhqk65wapgib6gnrn-binutils-wrapper-2.44/bin/ld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_e8a79] ==> ignore
+          arg [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/Scrt1.o] ==> obj [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/Scrt1.o]
+          arg [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/crti.o] ==> obj [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/crti.o]
+          arg [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/crtbeginS.o] ==> obj [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/crtbeginS.o]
+          arg [-L/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib] ==> dir [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib]
+          arg [-L/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0] ==> dir [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0]
+          arg [-L/nix/store/xp989kyfg52803fmkzbz5py35jphcpgd-gcc-14.3.0-lib/lib] ==> dir [/nix/store/xp989kyfg52803fmkzbz5py35jphcpgd-gcc-14.3.0-lib/lib]
+          arg [-L/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0//lib] ==> dir [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0//lib]
+          arg [-L/nix/store/8b9srwwmrwmh1yl613cwwj7gydl87br6-gcc-14.3.0-libgcc/lib] ==> dir [/nix/store/8b9srwwmrwmh1yl613cwwj7gydl87br6-gcc-14.3.0-libgcc/lib]
+          arg [-L/nix/store/d9vzxkjy9ywv31632m1md3ahw4fqjnjh-clang-21.1.1-lib/lib] ==> dir [/nix/store/d9vzxkjy9ywv31632m1md3ahw4fqjnjh-clang-21.1.1-lib/lib]
+          arg [-L/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0] ==> dir [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0]
+          arg [-dynamic-linker=/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_e8a79.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/crtendS.o] ==> obj [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/crtendS.o]
+          arg [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/crtn.o] ==> obj [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/crtn.o]
+        linker tool for 'CXX': /nix/store/pdhsik44bckhbspwhqk65wapgib6gnrn-binutils-wrapper-2.44/bin/ld
+        collapse library dir [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib] ==> [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib]
+        collapse library dir [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0] ==> [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0]
+        collapse library dir [/nix/store/xp989kyfg52803fmkzbz5py35jphcpgd-gcc-14.3.0-lib/lib] ==> [/nix/store/xp989kyfg52803fmkzbz5py35jphcpgd-gcc-14.3.0-lib/lib]
+        collapse library dir [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0//lib] ==> [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib]
+        collapse library dir [/nix/store/8b9srwwmrwmh1yl613cwwj7gydl87br6-gcc-14.3.0-libgcc/lib] ==> [/nix/store/8b9srwwmrwmh1yl613cwwj7gydl87br6-gcc-14.3.0-libgcc/lib]
+        collapse library dir [/nix/store/d9vzxkjy9ywv31632m1md3ahw4fqjnjh-clang-21.1.1-lib/lib] ==> [/nix/store/d9vzxkjy9ywv31632m1md3ahw4fqjnjh-clang-21.1.1-lib/lib]
+        collapse library dir [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0] ==> [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/Scrt1.o;/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/crti.o;/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/crtbeginS.o;/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/crtendS.o;/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/crtn.o]
+        implicit dirs: [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib;/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0;/nix/store/xp989kyfg52803fmkzbz5py35jphcpgd-gcc-14.3.0-lib/lib;/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib;/nix/store/8b9srwwmrwmh1yl613cwwj7gydl87br6-gcc-14.3.0-libgcc/lib;/nix/store/d9vzxkjy9ywv31632m1md3ahw4fqjnjh-clang-21.1.1-lib/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/run/current-system/sw/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/run/current-system/sw/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/nix/store/pdhsik44bckhbspwhqk65wapgib6gnrn-binutils-wrapper-2.44/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.44
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/fxpx9xaw1p55zk1jyri15w9zlb0s3g6z-cmake-3.31.6/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.17.2 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/fxpx9xaw1p55zk1jyri15w9zlb0s3g6z-cmake-3.31.6/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/nix/store/fxpx9xaw1p55zk1jyri15w9zlb0s3g6z-cmake-3.31.6/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/nix/store/fxpx9xaw1p55zk1jyri15w9zlb0s3g6z-cmake-3.31.6/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /run/current-system/sw/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/f/git/CPPP/build/CMakeFiles/3.31.6/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/fxpx9xaw1p55zk1jyri15w9zlb0s3g6z-cmake-3.31.6/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/nix/store/fxpx9xaw1p55zk1jyri15w9zlb0s3g6z-cmake-3.31.6/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/f/git/CPPP/build/CMakeFiles/CMakeScratch/TryCompile-bQCafm"
+      binary: "/home/f/git/CPPP/build/CMakeFiles/CMakeScratch/TryCompile-bQCafm"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/run/current-system/sw/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/f/git/CPPP/build/CMakeFiles/CMakeScratch/TryCompile-bQCafm'
+        
+        Run Build Command(s): /run/current-system/sw/bin/ninja -v cmTC_49449
+        [1/2] /run/current-system/sw/bin/c++   -v -MD -MT CMakeFiles/cmTC_49449.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_49449.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_49449.dir/CMakeCXXCompilerABI.cpp.o -c /nix/store/fxpx9xaw1p55zk1jyri15w9zlb0s3g6z-cmake-3.31.6/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        clang version 21.1.1
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/49aj2pqs10jkr5lf3ds87iynqp1v98k8-clang-21.1.1/bin
+        Found candidate GCC installation: /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0
+        Selected GCC installation: /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/49aj2pqs10jkr5lf3ds87iynqp1v98k8-clang-21.1.1/bin/clang++" -cc1 -triple x86_64-unknown-linux-gnu -O2 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/f/git/CPPP/build/CMakeFiles/CMakeScratch/TryCompile-bQCafm -v -fcoverage-compilation-dir=/home/f/git/CPPP/build/CMakeFiles/CMakeScratch/TryCompile-bQCafm -nostdsysteminc -resource-dir /nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/resource-root -dependency-file CMakeFiles/cmTC_49449.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_49449.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -idirafter /nix/store/0zv32kh0zb4s1v4ld6mc99vmzydj9nm9-glibc-2.40-66-dev/include -isystem /nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/include -isystem /nix/store/gpq4fpv4s308z9bg02gd0dnydiiy8l4b-gnumake-4.4.1/include -isystem /nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/include -isystem /nix/store/hchl7n8gdfdlz55ngdc6s1ircsi82xx8-ncurses-abi5-compat-6.5-dev/include -isystem /nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/include -isystem /nix/store/gpq4fpv4s308z9bg02gd0dnydiiy8l4b-gnumake-4.4.1/include -isystem /nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/include -isystem /nix/store/hchl7n8gdfdlz55ngdc6s1ircsi82xx8-ncurses-abi5-compat-6.5-dev/include -isystem /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0 -isystem /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu -U _FORTIFY_SOURCE -U _FORTIFY_SOURCE -D _FORTIFY_SOURCE=2 -internal-isystem /nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/resource-root/include -fmacro-prefix-map=/nix/store/0zv32kh0zb4s1v4ld6mc99vmzydj9nm9-glibc-2.40-66-dev/include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.40-66-dev/include -fmacro-prefix-map=/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-14.3.0/include/c++/14.3.0 -fmacro-prefix-map=/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu -source-date-epoch 315532800 -Wformat -Wformat-security -Werror=format-security -fdeprecated-macro -ferror-limit 19 -fzero-call-used-regs=used-gpr -fwrapv -stack-protector 2 -stack-protector-buffer-size 4 -fstack-clash-protection -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_49449.dir/CMakeCXXCompilerABI.cpp.o -x c++ /nix/store/fxpx9xaw1p55zk1jyri15w9zlb0s3g6z-cmake-3.31.6/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 21.1.1 based upon LLVM 21.1.1 default target x86_64-unknown-linux-gnu
+        ignoring duplicate directory "/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/include"
+        ignoring duplicate directory "/nix/store/gpq4fpv4s308z9bg02gd0dnydiiy8l4b-gnumake-4.4.1/include"
+        ignoring duplicate directory "/nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/include"
+        ignoring duplicate directory "/nix/store/hchl7n8gdfdlz55ngdc6s1ircsi82xx8-ncurses-abi5-compat-6.5-dev/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/include
+         /nix/store/gpq4fpv4s308z9bg02gd0dnydiiy8l4b-gnumake-4.4.1/include
+         /nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/include
+         /nix/store/hchl7n8gdfdlz55ngdc6s1ircsi82xx8-ncurses-abi5-compat-6.5-dev/include
+         /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0
+         /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu
+         /nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/resource-root/include
+         /nix/store/0zv32kh0zb4s1v4ld6mc99vmzydj9nm9-glibc-2.40-66-dev/include
+        End of search list.
+        [2/2] : && /run/current-system/sw/bin/c++  -v -Wl,-v CMakeFiles/cmTC_49449.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_49449   && :
+        clang version 21.1.1
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/49aj2pqs10jkr5lf3ds87iynqp1v98k8-clang-21.1.1/bin
+        Found candidate GCC installation: /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0
+        Selected GCC installation: /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/nix/store/pdhsik44bckhbspwhqk65wapgib6gnrn-binutils-wrapper-2.44/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_49449 /nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/Scrt1.o /nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/crti.o /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/crtbeginS.o -L/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/lib -L/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/lib -L/nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/lib -L/nix/store/jv4q3yvb6g6yl9km057azhakcj68ij50-bison-3.8.2/lib -L/nix/store/zf3ch4c6l16y7zax3q9vhmlwb90r914c-ncurses-abi5-compat-6.5/lib -L/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/lib -L/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/lib -L/nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/lib -L/nix/store/jv4q3yvb6g6yl9km057azhakcj68ij50-bison-3.8.2/lib -L/nix/store/zf3ch4c6l16y7zax3q9vhmlwb90r914c-ncurses-abi5-compat-6.5/lib -L/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib -L/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0 -L/nix/store/xp989kyfg52803fmkzbz5py35jphcpgd-gcc-14.3.0-lib/lib -L/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0//lib -L/nix/store/8b9srwwmrwmh1yl613cwwj7gydl87br6-gcc-14.3.0-libgcc/lib -L/nix/store/d9vzxkjy9ywv31632m1md3ahw4fqjnjh-clang-21.1.1-lib/lib -L/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0 -dynamic-linker=/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_49449.dir/CMakeCXXCompilerABI.cpp.o -rpath /home/f/git/esp32/HTTP/outputs/out/lib -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/crtendS.o /nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/crtn.o
+        GNU ld (GNU Binutils) 2.44
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/fxpx9xaw1p55zk1jyri15w9zlb0s3g6z-cmake-3.31.6/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/nix/store/fxpx9xaw1p55zk1jyri15w9zlb0s3g6z-cmake-3.31.6/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/include]
+          add: [/nix/store/gpq4fpv4s308z9bg02gd0dnydiiy8l4b-gnumake-4.4.1/include]
+          add: [/nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/include]
+          add: [/nix/store/hchl7n8gdfdlz55ngdc6s1ircsi82xx8-ncurses-abi5-compat-6.5-dev/include]
+          add: [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0]
+          add: [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu]
+          add: [/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/resource-root/include]
+          add: [/nix/store/0zv32kh0zb4s1v4ld6mc99vmzydj9nm9-glibc-2.40-66-dev/include]
+        end of search list found
+        collapse include dir [/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/include] ==> [/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/include]
+        collapse include dir [/nix/store/gpq4fpv4s308z9bg02gd0dnydiiy8l4b-gnumake-4.4.1/include] ==> [/nix/store/gpq4fpv4s308z9bg02gd0dnydiiy8l4b-gnumake-4.4.1/include]
+        collapse include dir [/nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/include] ==> [/nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/include]
+        collapse include dir [/nix/store/hchl7n8gdfdlz55ngdc6s1ircsi82xx8-ncurses-abi5-compat-6.5-dev/include] ==> [/nix/store/hchl7n8gdfdlz55ngdc6s1ircsi82xx8-ncurses-abi5-compat-6.5-dev/include]
+        collapse include dir [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0] ==> [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0]
+        collapse include dir [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu] ==> [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu]
+        collapse include dir [/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/resource-root/include] ==> [/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/resource-root/include]
+        collapse include dir [/nix/store/0zv32kh0zb4s1v4ld6mc99vmzydj9nm9-glibc-2.40-66-dev/include] ==> [/nix/store/0zv32kh0zb4s1v4ld6mc99vmzydj9nm9-glibc-2.40-66-dev/include]
+        implicit include dirs: [/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/include;/nix/store/gpq4fpv4s308z9bg02gd0dnydiiy8l4b-gnumake-4.4.1/include;/nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/include;/nix/store/hchl7n8gdfdlz55ngdc6s1ircsi82xx8-ncurses-abi5-compat-6.5-dev/include;/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0;/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu;/nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/resource-root/include;/nix/store/0zv32kh0zb4s1v4ld6mc99vmzydj9nm9-glibc-2.40-66-dev/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/fxpx9xaw1p55zk1jyri15w9zlb0s3g6z-cmake-3.31.6/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/nix/store/fxpx9xaw1p55zk1jyri15w9zlb0s3g6z-cmake-3.31.6/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/f/git/CPPP/build/CMakeFiles/CMakeScratch/TryCompile-bQCafm']
+        ignore line: []
+        ignore line: [Run Build Command(s): /run/current-system/sw/bin/ninja -v cmTC_49449]
+        ignore line: [[1/2] /run/current-system/sw/bin/c++   -v -MD -MT CMakeFiles/cmTC_49449.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_49449.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_49449.dir/CMakeCXXCompilerABI.cpp.o -c /nix/store/fxpx9xaw1p55zk1jyri15w9zlb0s3g6z-cmake-3.31.6/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 21.1.1]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/49aj2pqs10jkr5lf3ds87iynqp1v98k8-clang-21.1.1/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0]
+        ignore line: [Selected GCC installation: /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/nix/store/49aj2pqs10jkr5lf3ds87iynqp1v98k8-clang-21.1.1/bin/clang++" -cc1 -triple x86_64-unknown-linux-gnu -O2 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/f/git/CPPP/build/CMakeFiles/CMakeScratch/TryCompile-bQCafm -v -fcoverage-compilation-dir=/home/f/git/CPPP/build/CMakeFiles/CMakeScratch/TryCompile-bQCafm -nostdsysteminc -resource-dir /nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/resource-root -dependency-file CMakeFiles/cmTC_49449.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_49449.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -idirafter /nix/store/0zv32kh0zb4s1v4ld6mc99vmzydj9nm9-glibc-2.40-66-dev/include -isystem /nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/include -isystem /nix/store/gpq4fpv4s308z9bg02gd0dnydiiy8l4b-gnumake-4.4.1/include -isystem /nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/include -isystem /nix/store/hchl7n8gdfdlz55ngdc6s1ircsi82xx8-ncurses-abi5-compat-6.5-dev/include -isystem /nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/include -isystem /nix/store/gpq4fpv4s308z9bg02gd0dnydiiy8l4b-gnumake-4.4.1/include -isystem /nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/include -isystem /nix/store/hchl7n8gdfdlz55ngdc6s1ircsi82xx8-ncurses-abi5-compat-6.5-dev/include -isystem /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0 -isystem /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu -U _FORTIFY_SOURCE -U _FORTIFY_SOURCE -D _FORTIFY_SOURCE=2 -internal-isystem /nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/resource-root/include -fmacro-prefix-map=/nix/store/0zv32kh0zb4s1v4ld6mc99vmzydj9nm9-glibc-2.40-66-dev/include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.40-66-dev/include -fmacro-prefix-map=/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-14.3.0/include/c++/14.3.0 -fmacro-prefix-map=/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu -source-date-epoch 315532800 -Wformat -Wformat-security -Werror=format-security -fdeprecated-macro -ferror-limit 19 -fzero-call-used-regs=used-gpr -fwrapv -stack-protector 2 -stack-protector-buffer-size 4 -fstack-clash-protection -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_49449.dir/CMakeCXXCompilerABI.cpp.o -x c++ /nix/store/fxpx9xaw1p55zk1jyri15w9zlb0s3g6z-cmake-3.31.6/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 21.1.1 based upon LLVM 21.1.1 default target x86_64-unknown-linux-gnu]
+        ignore line: [ignoring duplicate directory "/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/gpq4fpv4s308z9bg02gd0dnydiiy8l4b-gnumake-4.4.1/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/hchl7n8gdfdlz55ngdc6s1ircsi82xx8-ncurses-abi5-compat-6.5-dev/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/include]
+        ignore line: [ /nix/store/gpq4fpv4s308z9bg02gd0dnydiiy8l4b-gnumake-4.4.1/include]
+        ignore line: [ /nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/include]
+        ignore line: [ /nix/store/hchl7n8gdfdlz55ngdc6s1ircsi82xx8-ncurses-abi5-compat-6.5-dev/include]
+        ignore line: [ /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0]
+        ignore line: [ /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu]
+        ignore line: [ /nix/store/d6syhmcp4rldmcc9bk42zssndi4q7kwq-clang-wrapper-21.1.1/resource-root/include]
+        ignore line: [ /nix/store/0zv32kh0zb4s1v4ld6mc99vmzydj9nm9-glibc-2.40-66-dev/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /run/current-system/sw/bin/c++  -v -Wl -v CMakeFiles/cmTC_49449.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_49449   && :]
+        ignore line: [clang version 21.1.1]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/49aj2pqs10jkr5lf3ds87iynqp1v98k8-clang-21.1.1/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0]
+        ignore line: [Selected GCC installation: /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/nix/store/pdhsik44bckhbspwhqk65wapgib6gnrn-binutils-wrapper-2.44/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_49449 /nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/Scrt1.o /nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/crti.o /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/crtbeginS.o -L/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/lib -L/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/lib -L/nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/lib -L/nix/store/jv4q3yvb6g6yl9km057azhakcj68ij50-bison-3.8.2/lib -L/nix/store/zf3ch4c6l16y7zax3q9vhmlwb90r914c-ncurses-abi5-compat-6.5/lib -L/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/lib -L/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/lib -L/nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/lib -L/nix/store/jv4q3yvb6g6yl9km057azhakcj68ij50-bison-3.8.2/lib -L/nix/store/zf3ch4c6l16y7zax3q9vhmlwb90r914c-ncurses-abi5-compat-6.5/lib -L/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib -L/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0 -L/nix/store/xp989kyfg52803fmkzbz5py35jphcpgd-gcc-14.3.0-lib/lib -L/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0//lib -L/nix/store/8b9srwwmrwmh1yl613cwwj7gydl87br6-gcc-14.3.0-libgcc/lib -L/nix/store/d9vzxkjy9ywv31632m1md3ahw4fqjnjh-clang-21.1.1-lib/lib -L/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0 -dynamic-linker=/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_49449.dir/CMakeCXXCompilerABI.cpp.o -rpath /home/f/git/esp32/HTTP/outputs/out/lib -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/crtendS.o /nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/crtn.o]
+          arg [/nix/store/pdhsik44bckhbspwhqk65wapgib6gnrn-binutils-wrapper-2.44/bin/ld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_49449] ==> ignore
+          arg [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/Scrt1.o] ==> obj [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/Scrt1.o]
+          arg [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/crti.o] ==> obj [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/crti.o]
+          arg [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/crtbeginS.o] ==> obj [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/crtbeginS.o]
+          arg [-L/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/lib] ==> dir [/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/lib]
+          arg [-L/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/lib] ==> dir [/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/lib]
+          arg [-L/nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/lib] ==> dir [/nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/lib]
+          arg [-L/nix/store/jv4q3yvb6g6yl9km057azhakcj68ij50-bison-3.8.2/lib] ==> dir [/nix/store/jv4q3yvb6g6yl9km057azhakcj68ij50-bison-3.8.2/lib]
+          arg [-L/nix/store/zf3ch4c6l16y7zax3q9vhmlwb90r914c-ncurses-abi5-compat-6.5/lib] ==> dir [/nix/store/zf3ch4c6l16y7zax3q9vhmlwb90r914c-ncurses-abi5-compat-6.5/lib]
+          arg [-L/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/lib] ==> dir [/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/lib]
+          arg [-L/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/lib] ==> dir [/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/lib]
+          arg [-L/nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/lib] ==> dir [/nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/lib]
+          arg [-L/nix/store/jv4q3yvb6g6yl9km057azhakcj68ij50-bison-3.8.2/lib] ==> dir [/nix/store/jv4q3yvb6g6yl9km057azhakcj68ij50-bison-3.8.2/lib]
+          arg [-L/nix/store/zf3ch4c6l16y7zax3q9vhmlwb90r914c-ncurses-abi5-compat-6.5/lib] ==> dir [/nix/store/zf3ch4c6l16y7zax3q9vhmlwb90r914c-ncurses-abi5-compat-6.5/lib]
+          arg [-L/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib] ==> dir [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib]
+          arg [-L/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0] ==> dir [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0]
+          arg [-L/nix/store/xp989kyfg52803fmkzbz5py35jphcpgd-gcc-14.3.0-lib/lib] ==> dir [/nix/store/xp989kyfg52803fmkzbz5py35jphcpgd-gcc-14.3.0-lib/lib]
+          arg [-L/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0//lib] ==> dir [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0//lib]
+          arg [-L/nix/store/8b9srwwmrwmh1yl613cwwj7gydl87br6-gcc-14.3.0-libgcc/lib] ==> dir [/nix/store/8b9srwwmrwmh1yl613cwwj7gydl87br6-gcc-14.3.0-libgcc/lib]
+          arg [-L/nix/store/d9vzxkjy9ywv31632m1md3ahw4fqjnjh-clang-21.1.1-lib/lib] ==> dir [/nix/store/d9vzxkjy9ywv31632m1md3ahw4fqjnjh-clang-21.1.1-lib/lib]
+          arg [-L/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0] ==> dir [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0]
+          arg [-dynamic-linker=/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_49449.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/home/f/git/esp32/HTTP/outputs/out/lib] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/crtendS.o] ==> obj [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/crtendS.o]
+          arg [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/crtn.o] ==> obj [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/crtn.o]
+        linker tool for 'CXX': /nix/store/pdhsik44bckhbspwhqk65wapgib6gnrn-binutils-wrapper-2.44/bin/ld
+        collapse library dir [/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/lib] ==> [/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/lib]
+        collapse library dir [/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/lib] ==> [/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/lib]
+        collapse library dir [/nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/lib] ==> [/nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/lib]
+        collapse library dir [/nix/store/jv4q3yvb6g6yl9km057azhakcj68ij50-bison-3.8.2/lib] ==> [/nix/store/jv4q3yvb6g6yl9km057azhakcj68ij50-bison-3.8.2/lib]
+        collapse library dir [/nix/store/zf3ch4c6l16y7zax3q9vhmlwb90r914c-ncurses-abi5-compat-6.5/lib] ==> [/nix/store/zf3ch4c6l16y7zax3q9vhmlwb90r914c-ncurses-abi5-compat-6.5/lib]
+        collapse library dir [/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/lib] ==> [/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/lib]
+        collapse library dir [/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/lib] ==> [/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/lib]
+        collapse library dir [/nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/lib] ==> [/nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/lib]
+        collapse library dir [/nix/store/jv4q3yvb6g6yl9km057azhakcj68ij50-bison-3.8.2/lib] ==> [/nix/store/jv4q3yvb6g6yl9km057azhakcj68ij50-bison-3.8.2/lib]
+        collapse library dir [/nix/store/zf3ch4c6l16y7zax3q9vhmlwb90r914c-ncurses-abi5-compat-6.5/lib] ==> [/nix/store/zf3ch4c6l16y7zax3q9vhmlwb90r914c-ncurses-abi5-compat-6.5/lib]
+        collapse library dir [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib] ==> [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib]
+        collapse library dir [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0] ==> [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0]
+        collapse library dir [/nix/store/xp989kyfg52803fmkzbz5py35jphcpgd-gcc-14.3.0-lib/lib] ==> [/nix/store/xp989kyfg52803fmkzbz5py35jphcpgd-gcc-14.3.0-lib/lib]
+        collapse library dir [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0//lib] ==> [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib]
+        collapse library dir [/nix/store/8b9srwwmrwmh1yl613cwwj7gydl87br6-gcc-14.3.0-libgcc/lib] ==> [/nix/store/8b9srwwmrwmh1yl613cwwj7gydl87br6-gcc-14.3.0-libgcc/lib]
+        collapse library dir [/nix/store/d9vzxkjy9ywv31632m1md3ahw4fqjnjh-clang-21.1.1-lib/lib] ==> [/nix/store/d9vzxkjy9ywv31632m1md3ahw4fqjnjh-clang-21.1.1-lib/lib]
+        collapse library dir [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0] ==> [/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/Scrt1.o;/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/crti.o;/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/crtbeginS.o;/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/crtendS.o;/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib/crtn.o]
+        implicit dirs: [/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/lib;/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/lib;/nix/store/pkrxjss5bkjh5zykz43l32hnl0b7c6z5-flex-2.6.4/lib;/nix/store/jv4q3yvb6g6yl9km057azhakcj68ij50-bison-3.8.2/lib;/nix/store/zf3ch4c6l16y7zax3q9vhmlwb90r914c-ncurses-abi5-compat-6.5/lib;/nix/store/qhw0sp183mqd04x5jp75981kwya64npv-glibc-2.40-66/lib;/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0;/nix/store/xp989kyfg52803fmkzbz5py35jphcpgd-gcc-14.3.0-lib/lib;/nix/store/k6gpflj398qaxzx4bmqhnnj4l328vabk-gcc-14.3.0/lib;/nix/store/8b9srwwmrwmh1yl613cwwj7gydl87br6-gcc-14.3.0-libgcc/lib;/nix/store/d9vzxkjy9ywv31632m1md3ahw4fqjnjh-clang-21.1.1-lib/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/fxpx9xaw1p55zk1jyri15w9zlb0s3g6z-cmake-3.31.6/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/nix/store/fxpx9xaw1p55zk1jyri15w9zlb0s3g6z-cmake-3.31.6/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/nix/store/fxpx9xaw1p55zk1jyri15w9zlb0s3g6z-cmake-3.31.6/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/nix/store/pdhsik44bckhbspwhqk65wapgib6gnrn-binutils-wrapper-2.44/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.44
+...
